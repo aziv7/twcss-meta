@@ -5,6 +5,7 @@ import {
   Header,
   Headsets,
   NavMobile,
+  Reviews,
   Video,
 } from './components';
 import logo from './logo.svg';
@@ -28,6 +29,7 @@ function App() {
       <Experience />
       <Video />
       <Headsets />
+      <Reviews />
     </div>
   );
 }
