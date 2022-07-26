@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Banner, Experience, Header, NavMobile } from './components';
+import { Banner, Experience, Header, NavMobile, Video } from './components';
 import logo from './logo.svg';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         </div>
       )}
       <Experience />
+      <Video />
     </div>
   );
 }
