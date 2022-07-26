@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Banner,
   Experience,
@@ -11,8 +11,17 @@ import {
 } from './components';
 import logo from './logo.svg';
 
+import 'aos/dist/aos.css';
+import aos from 'aos';
 function App() {
   const [navMenu, setNavMenu] = useState(false);
+
+  useEffect(() => {
+    aos.init({
+      duration: 2500,
+      delay: 400,
+    });
+  }, []);
 
   return (
     <div
