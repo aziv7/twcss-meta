@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {
   Banner,
   Experience,
+  Explore,
   Header,
   Headsets,
   NavMobile,
@@ -30,6 +31,7 @@ function App() {
       <Video />
       <Headsets />
       <Reviews />
+      <Explore />
     </div>
   );
 }

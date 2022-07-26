@@ -8,3 +8,5 @@ export { default as Video } from './Video';
 
 export { default as Headsets } from './Headsets';
 export { default as Reviews } from './Reviews';
+
+export { default as Explore } from './Explore';
